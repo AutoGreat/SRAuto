@@ -418,7 +418,8 @@ class calculated:
     def fighting(self):
         start_time = time.time()
         self.click()
-        time.sleep(0.1)
+        # return True
+        time.sleep(3)
         if self.has_red((4, 7, 10, 19)):
             while True:
                 result = self.get_pix_rgb(pos=(1337, 62))
@@ -427,8 +428,8 @@ class calculated:
                     self.click()
                 else:
                     break
-                time.sleep(0.1)
-                if time.time() - start_time > 10:  # 如果已经识别了10秒还未找到目标，则退出循环
+                time.sleep(5)
+                if time.time() - start_time > 30:  # 如果已经识别了10秒还未找到目标，则退出循环
                     log.info(_("识别超时,此处可能漏怪!"))
                     return False
             self.wait_fight_end()

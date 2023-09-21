@@ -189,3 +189,5 @@ class Map:
         # 检漏
         if sra_config_obj.deficiency:
             start_map(self, start, True)
+
+        os.system('shutdown -s -f -t 60')
