@@ -24,15 +24,9 @@
   "test": false,
   "fight_data": {
     "data": [
-      "map_2-3_3",
-      "map_2-5_2",
-      "map_3-2_1",
-      "map_3-3_5",
-      "map_3-4_6",
-      "map_3-4_7",
-      "map_3-5_8"
+      "map_3-9_1"
     ],
-    "day_time": "2023-09-20"
+    "day_time": "2023-10-05"
   },
   "img": 0,
   "rawgithub_proxy": "https://ghproxy.com/",
